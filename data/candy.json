@@ -1,0 +1,203 @@
+[
+  {
+    "name": "Isabella Smith",
+    "age": 11,
+    "borough": "Bronx",
+    "neighborhood_name": "Mott Haven",
+    "neighborhood_population": 43733,
+    "candy_collected": [
+      {
+        "name": "snickers",
+        "count": 341
+      },
+      {
+        "name": "reeses peanut butter cups",
+        "count": 280
+      },
+      {
+        "name": "reeses pieces",
+        "count": 231
+      },
+      {
+        "name": "milky way",
+        "count": 199
+      },
+      {
+        "name": "gummy bears",
+        "count": 187
+      },
+      {
+        "name": "twix",
+        "count": 171
+      },
+      {
+        "name": "kitkat",
+        "count": 111
+      },
+      {
+        "name": "skittles",
+        "count": 93
+      },
+      {
+        "name": "almond joy",
+        "count": 61
+      },
+      {
+        "name": "butterfingers",
+        "count": 35
+      }
+    ]
+  },
+  {
+    "name": "Aiden Brown",
+    "age": 9,
+    "borough": "Brooklyn",
+    "neighborhood_name": "Flatbush",
+    "neighborhood_population": 105804,
+    "candy_collected": [
+      {
+        "name": "m&ms",
+        "count": 134
+      },
+      {
+        "name": "peanut m&ms",
+        "count": 111
+      },
+      {
+        "name": "milky way",
+        "count": 90
+      },
+      {
+        "name": "butterfingers",
+        "count": 88
+      },
+      {
+        "name": "snickers",
+        "count": 87
+      },
+      {
+        "name": "twizzlers",
+        "count": 87
+      },
+      {
+        "name": "reeses peanut butter cups",
+        "count": 61
+      },
+      {
+        "name": "kitkat",
+        "count": 52
+      },
+      {
+        "name": "mounds",
+        "count": 30
+      },
+      {
+        "name": "sour patch kids",
+        "count": 12
+      },
+      {
+        "name": "nerds",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name": "Sophia Williams",
+    "age": 10,
+    "borough": "Staten Island",
+    "neighborhood_name": "Port Richmond",
+    "neighborhood_population": 18516,
+    "candy_collected": [
+      {
+        "name": "snickers",
+        "count": 37
+      },
+      {
+        "name": "milky way",
+        "count": 31
+      },
+      {
+        "name": "mounds",
+        "count": 29
+      },
+      {
+        "name": "almond joy",
+        "count": 27
+      },
+      {
+        "name": "kitkat",
+        "count": 16
+      }
+    ]
+  },
+  {
+    "name": "Ethan Johnson",
+    "age": 9,
+    "borough": "Brooklyn",
+    "neighborhood_name": "Brooklyn Heights",
+    "neighborhood_population": 20256,
+    "candy_collected": [
+      {
+        "name": "snickers",
+        "count": 74
+      },
+      {
+        "name": "reeses peanut butter cups",
+        "count": 62
+      },
+      {
+        "name": "reeses pieces",
+        "count": 51
+      },
+      {
+        "name": "milky way",
+        "count": 43
+      },
+      {
+        "name": "gummy bears",
+        "count": 32
+      },
+      {
+        "name": "m&ms",
+        "count": 28
+      },
+      {
+        "name": "nerds",
+        "count": 13
+      }
+    ]
+  },
+  {
+    "name": "Emma Miller",
+    "age": 11,
+    "borough": "Bronx",
+    "neighborhood_name": "Morris Park",
+    "neighborhood_population": 10289,
+    "candy_collected": [
+      {
+        "name": "gummy bears",
+        "count": 137
+      },
+      {
+        "name": "skittles",
+        "count": 99
+      },
+      {
+        "name": "sour patch kids",
+        "count": 58
+      },
+      {
+        "name": "snickers",
+        "count": 31
+      },
+      {
+        "name": "milky way",
+        "count": 29
+      },
+      {
+        "name": "almond joy",
+        "count": 7
+      }
+    ]
+  }
+]
