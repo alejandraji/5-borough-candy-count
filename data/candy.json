@@ -168,6 +168,59 @@
     ]
   },
   {
+    "name": "Alex Brown",
+    "age": 9,
+    "borough": "Queens",
+    "neighborhood_name": "Astoria",
+    "neighborhood_population": 105804,
+    "candy_collected": [
+      {
+        "name": "m&ms",
+        "count": 134
+      },
+      {
+        "name": "peanut m&ms",
+        "count": 111
+      },
+      {
+        "name": "milky way",
+        "count": 90
+      },
+      {
+        "name": "butterfingers",
+        "count": 88
+      },
+      {
+        "name": "snickers",
+        "count": 87
+      },
+      {
+        "name": "twizzlers",
+        "count": 87
+      },
+      {
+        "name": "reeses peanut butter cups",
+        "count": 61
+      },
+      {
+        "name": "kitkat",
+        "count": 52
+      },
+      {
+        "name": "mounds",
+        "count": 30
+      },
+      {
+        "name": "sour patch kids",
+        "count": 12
+      },
+      {
+        "name": "nerds",
+        "count": 6
+      }
+    ]
+  },
+  {
     "name": "Emma Miller",
     "age": 11,
     "borough": "Bronx",

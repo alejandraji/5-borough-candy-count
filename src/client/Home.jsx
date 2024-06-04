@@ -1,9 +1,24 @@
-import React from "react";
-import { Paper, Container, Typography, Stack } from "@mui/material";
-import WavingHandIcon from "@mui/icons-material/WavingHand";
+import React, { useEffect, useState } from "react";
+import { Paper, Container, Stack, Table, TableBody, TableContainer, TableCell, TableHead, TableRow } from "@mui/material";
 import { Healthcheck } from "./components/Healthcheck";
 
 export function Home() {
+  const [rows, setRows] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/api/stats');
+        const data = await response.json();
+        setRows(data);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <Container
       maxWidth="lg"
@@ -17,14 +32,24 @@ export function Home() {
           mt={3}
         >
           <Stack direction={"column"} alignItems={"center"}>
-            <WavingHandIcon style={{ transform: "scale(2)" }} />
-            <Typography variant="h4" mt={3}>
-              Welcome to the Candy App!
-            </Typography>
-            <Typography variant="h6" mt={3} p={2}>
-              {`In this exercise you will create a new client-side route and
-             component to display candy data that the server returns.`}
-            </Typography>
+            <TableContainer component={Paper}>
+              <Table aria-label="table">
+                <TableHead>
+                  <TableRow class="leaderBoard">
+                    <TableCell>NYC Borough</TableCell>
+                    <TableCell align="right">Total Borough Candy</TableCell>
+                  </TableRow>
+                </TableHead>
+                <TableBody>
+                {rows.map((row) => (
+                  <TableRow key={row}>
+                    <TableCell component="th" scope="row">{row.name}</TableCell>
+                    <TableCell align="center">{row.total_candy_collected}</TableCell>
+                  </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </TableContainer>
           </Stack>
           <Healthcheck />
         </Stack>
