@@ -12,7 +12,7 @@ app.get('/api/stats', async (req, res) => {
     const boroughs = getBoroughs();
     res.json(boroughs);
   } catch (error) {
-    console.error("Error parsing:", error);
+    console.error("Error:", error);
     res.status(500).send("Internal Server Error");
   }
 });
