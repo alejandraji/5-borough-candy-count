@@ -1,19 +1,11 @@
-# NYT Interactive News 2024 hiring exercise
-
-## Description
-Below is a problem we'd like you to solve. Please spend up to 90 minutes on this exercise. We appreciate code comments where helpful!
 
 ## Problem statement
-Halloween is coming, and The New York Times is preparing for a major new data investment. We’ll be tracking how much candy kids across NYC get in real time. Our reporters have lined up several thousand kids across the city. Each kid will tally the candy received in their neighborhood, by candy type. They’ll upload their reports, allowing us to display counts of which neighborhoods are giving out which type of candy.
+Halloween is coming, and The NYT is preparing for a major new data investment. We’ll be tracking how much candy kids across NYC get in real time. Our reporters have lined up several thousand kids across the city. Each kid will tally the candy received in their neighborhood, by candy type. They’ll upload their reports, allowing us to display counts of which neighborhoods are giving out which type of candy.
 
 Our Graphics department is interested in making a leaderboard graphic, displaying how much candy has been collected in each borough. You’re responsible producing an API that will power our graphics, and a table for data review. Specifically, your tasks are:
 
 * Complete the `/api/stats` endpoint in `src/server/server.js` to return JSON data containing how much candy was collected for each borough, in descending order.
 * Add a new client-side route and a view in the React app to display the data returned from your new endpoint above. (We aren't grading on style of the UI here, so fine to keep it as a bare-bones table)
-
-## Submitting
-
-Please create a zipfile of your app and load it to the same Google Drive folder.
 
 ## Technical details
 ### Prerequisites
